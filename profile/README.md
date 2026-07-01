@@ -61,16 +61,16 @@
 프로젝트 repository는 다음과 같은 이름 규칙을 따릅니다.
 
 ```text
-{year}-{semester}-w{week}-c{class}-{teamNumber}
+{year}{semester}-w{week}-c{class}-{teamNumber}
 ```
 
 예시:
 
 ```text
-2026-summer-w1-c1-01
-2026-summer-w2-c3-07
-2026-summer-w3-c4-05
-2026-summer-w4-c2-10
+26s-w1-c1-01
+26s-w2-c3-07
+26s-w3-c4-05
+26s-w4-c2-10
 ```
 
 각 repository는 다음 정보를 포함하는 것을 권장합니다.
