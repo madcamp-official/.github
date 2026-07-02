@@ -97,7 +97,7 @@
 | `project-template` | Public | 참가자 프로젝트 repository 생성을 위한 기본 템플릿 |
 | `participant-guide` | Public | 참가자를 위한 GitHub 사용법, 제출 규칙, 보안 가이드 |
 | 운영진 관리 repository | Private | GitHub Organization 운영 매뉴얼, 자동화 스크립트, 내부 운영 자료 |
-| `2026-summer-w1-c1-01` 등 | Public 또는 Private | 기수·주차·분반·팀별 프로젝트 산출물 |
+| `26s-w1-c1-01` 등 | Public 또는 Private | 기수·주차·분반·팀별 프로젝트 산출물 |
 
 ---
 
