@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# MadCamp · 몰입캠프
+# 몰입캠프
 
 ### 함께 몰입하는 즐거움, 몰입캠프
 
