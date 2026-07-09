@@ -11,7 +11,7 @@
 <img src="https://img.shields.io/badge/MadCamp-Since%202010-004191?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/KAIST-School%20of%20Computing-004191?style=for-the-badge"/>
 
-**[Official Website](https://madcamp.io)** · **[Participant Guide Wiki](https://github.com/madcamp-official/participant-guide/wiki)** · **[Contact](mailto:madcamp.kaist@gmail.com)**
+**[Official Website](https://madcamp.io)** · **[Project Archive](https://madcamp-official.github.io)** · **[Participant Guide Wiki](https://github.com/madcamp-official/participant-guide/wiki)** · **[Contact](mailto:madcamp.kaist@gmail.com)**
 
 </div>
 
