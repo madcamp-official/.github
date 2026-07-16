@@ -19,7 +19,7 @@
 
 ## About MadCamp
 
-**몰입캠프(MadCamp)** 는 학생들이 자율적으로 집중 개발을 경험하는 프로그래밍 캠프입니다.
+**몰입캠프** 는 학생들이 자율적으로 집중 개발을 경험하는 프로그래밍 캠프입니다.
 
 참가자들은 4주 이상 이어지는 캠프 기간 동안 팀을 이루어 서비스를 기획하고, 개발하고, 배포하며, 그 과정에서 협업과 몰입의 경험을 쌓습니다. 몰입캠프는 단순히 특정 기술을 가르치는 수업이 아니라, 다양한 학생들이 함께 개발하며 빠르게 배우고 성장하는 환경을 만드는 것을 목표로 합니다.
 
@@ -57,47 +57,6 @@
 | 팀별 관리 | 한 주차의 한 팀이 하나의 repository를 사용합니다. |
 | 산출물 공유 | 공개 가능한 프로젝트는 public repository로 관리하여 후속 기수와 외부에서도 참고할 수 있게 합니다. |
 | 포트폴리오 활용 | 참가자는 정리된 repository를 자신의 CV, 포트폴리오, GitHub profile 등에 활용할 수 있습니다. |
-
-프로젝트 repository는 다음과 같은 이름 규칙을 따릅니다.
-
-```text
-{year}{semester}-w{week}-c{class}-{teamNumber}
-```
-
-예시:
-
-```text
-26s-w1-c1-01
-26s-w2-c3-07
-26s-w3-c4-05
-26s-w4-c2-10
-```
-
-각 repository는 다음 정보를 포함하는 것을 권장합니다.
-
-- 프로젝트 소개
-- 팀원 및 역할
-- 주요 기능
-- 기술 스택
-- 실행 방법
-- 배포 링크
-- 발표 자료 또는 시연 영상
-- API 명세
-- DB 스키마
-- 회고
-
----
-
-## Repository Structure
-
-이 Organization은 다음과 같은 repository들을 중심으로 운영됩니다.
-
-| Repository | Visibility | Purpose |
-|---|---|---|
-| `project-template` | Public | 참가자 프로젝트 repository 생성을 위한 기본 템플릿 |
-| `participant-guide` | Public | 참가자를 위한 GitHub 사용법, 제출 규칙, 보안 가이드 |
-| 운영진 관리 repository | Private | GitHub Organization 운영 매뉴얼, 자동화 스크립트, 내부 운영 자료 |
-| `26s-w1-c1-01` 등 | Public 또는 Private | 기수·주차·분반·팀별 프로젝트 산출물 |
 
 ---
 
@@ -143,61 +102,6 @@
 
 > 참가자용 GitHub 사용법, 권한 안내, 제출 규칙, 배포/시연 링크 정리 방법은  
 > [몰입캠프 참가자 가이드 Wiki](https://github.com/madcamp-official/participant-guide/wiki)에서 확인할 수 있습니다.
-
-참가자는 각 주차별 팀 repository에서 프로젝트를 진행합니다.
-
-기본적인 제출 기준은 다음과 같습니다.
-
-- 프로젝트 코드는 배정된 팀 repository에 push합니다.
-- 최종 제출 기준 branch는 `main`입니다.
-- README에 프로젝트 소개, 팀원, 실행 방법, 배포 링크를 작성합니다.
-- 필요한 경우 `docs/`에 기획서, API 명세, DB 스키마, 배포 문서, 회고를 작성합니다.
-- `.env`, API key, DB password, token 등 민감 정보는 commit하지 않습니다.
-- 실제 환경변수 값은 올리지 않고, 필요한 변수 이름만 `.env.example`에 작성합니다.
-- 대용량 파일, 빌드 파일, 시연 영상 등은 외부 링크나 Release 형태로 정리합니다.
-
-자세한 안내는 아래 문서를 참고해 주세요.
-
-- [몰입캠프 참가자 가이드 Wiki](https://github.com/madcamp-official/participant-guide/wiki)
-- [participant-guide repository](https://github.com/madcamp-official/participant-guide)
-
----
-
-## Participant Guide
-
-참가자용 Wiki에는 다음 내용이 정리되어 있습니다.
-
-| 문서 | 내용 |
-|---|---|
-| [GitHub 계정 준비](https://github.com/madcamp-official/participant-guide/wiki/GitHub-%EA%B3%84%EC%A0%95-%EC%A4%80%EB%B9%84) | GitHub 계정 생성, username 확인, Git 설치 확인 |
-| [Organization 참여하기](https://github.com/madcamp-official/participant-guide/wiki/Organization-%EC%B0%B8%EC%97%AC%ED%95%98%EA%B8%B0) | GitHub username 제출, Organization 초대 수락, 팀 repository 접근 확인 |
-| [권한 안내](https://github.com/madcamp-official/participant-guide/wiki/%EA%B6%8C%ED%95%9C-%EC%95%88%EB%82%B4) | 참가자 권한, repository 생성/삭제 제한, GitHub App, OAuth, Actions, 배포 서비스 권한 안내 |
-| [Repository 사용 규칙](https://github.com/madcamp-official/participant-guide/wiki/Repository-%EC%82%AC%EC%9A%A9-%EA%B7%9C%EC%B9%99) | 팀 repository 사용 방식, naming rule, README 작성 기준 |
-| [프로젝트 유형별 제출 가이드](https://github.com/madcamp-official/participant-guide/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9C%A0%ED%98%95%EB%B3%84-%EC%A0%9C%EC%B6%9C-%EA%B0%80%EC%9D%B4%EB%93%9C) | Web, Mobile, Game, AI/LLM 등 프로젝트 유형별 repository 정리 방법 |
-| [환경변수와 보안](https://github.com/madcamp-official/participant-guide/wiki/%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98%EC%99%80-%EB%B3%B4%EC%95%88) | public repository 사용 시 `.env`, API key, secret 관리 주의사항 |
-| [대용량 파일과 Git LFS](https://github.com/madcamp-official/participant-guide/wiki/%EB%8C%80%EC%9A%A9%EB%9F%89-%ED%8C%8C%EC%9D%BC%EA%B3%BC-Git-LFS) | Git LFS 미지원 안내, 대용량 파일과 빌드 파일 제출 방식 |
-| [배포와 시연 링크](https://github.com/madcamp-official/participant-guide/wiki/%EB%B0%B0%ED%8F%AC%EC%99%80-%EC%8B%9C%EC%97%B0-%EB%A7%81%ED%81%AC) | 배포 링크, API 문서, 앱 패키지, 게임 빌드, 시연 영상 정리 방법 |
-| [최종 제출 체크리스트](https://github.com/madcamp-official/participant-guide/wiki/%EC%B5%9C%EC%A2%85-%EC%A0%9C%EC%B6%9C-%EC%B2%B4%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8A%B8) | 마감 전 확인해야 할 최종 점검 항목 |
-
----
-
-## For Staff
-
-운영진은 이 Organization을 통해 참가자 프로젝트 repository를 생성하고, 팀별 권한을 관리하며, 각 기수의 산출물을 정리합니다.
-
-운영진이 관리하는 주요 항목은 다음과 같습니다.
-
-- 참가자 GitHub username 수집
-- 주차별 팀 편성 CSV 관리
-- repository 및 GitHub Team 자동 생성
-- 팀별 repository 권한 부여
-- `project-template` 유지보수
-- 캠프 종료 후 공개 가능한 repository 정리
-- 다음 기수를 위한 운영 매뉴얼 개선
-
-세부 운영 방식은 내부 운영 문서와 자동화 repository에서 관리합니다.
-
----
 
 ## History
 
