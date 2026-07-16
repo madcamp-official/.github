@@ -133,8 +133,8 @@
 | 주차 | 기간 | 상태 | 아카이브 |
 |---|---|---|---|
 | Week 1 | 2026.07.02 ~ 2026.07.09 | 완료 | [보러가기](https://madcamp-official.github.io/archive/2026-summer/week1/) |
-| Week 2 | 2026.07.09 ~ | 진행중 | - |
-| Week 3 | - | 예정 | - |
+| Week 2 | 2026.07.09 ~ 2026.07.16 | 완료 | [보러가기](https://madcamp-official.github.io/archive/2026-summer/week2/) |
+| Week 3 | 2026.07.16 ~ | 진행중 | - |
 | Week 4 | - | 예정 | - |
 
 ---
